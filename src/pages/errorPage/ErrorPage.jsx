@@ -182,7 +182,7 @@ const ErrorPage = () => {
                         </svg>
 
                     </div>
-                    <p className="text-sm md:text-base text-yellow-300 p-2 mb-4">The stuff you were looking for doesn't exist. Reload the Page or Go back....
+                    <p className="text-sm md:text-base text-yellow-300 p-2 mb-4">The stuff you were looking for do not exist. Reload the Page or Go back....
                     </p>
                     <Link to="/"
                         className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
