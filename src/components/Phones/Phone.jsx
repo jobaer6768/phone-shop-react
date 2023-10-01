@@ -5,7 +5,7 @@ const Phone = ({ phones }) => {
     return (
         <div className='grid grid-cols-1 gap-6 md:grid-cols-3'>
             {
-                phones.map((phone) => <PhoneCard key={phone.id} phone={phone}></PhoneCard>)
+                phones?.map((phone) => <PhoneCard key={phone.id} phone={phone}></PhoneCard>)
             }
         </div>
     );
