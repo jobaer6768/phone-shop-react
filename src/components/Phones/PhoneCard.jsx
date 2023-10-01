@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Rating from 'react-rating';
 import { Link } from 'react-router-dom';
 
 const PhoneCard = ({ phone }) => {
@@ -24,7 +25,7 @@ const PhoneCard = ({ phone }) => {
                         </p>
                     </div>
                     <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
-                        {/* <Rating
+                        <Rating
                             emptySymbol={
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ const PhoneCard = ({ phone }) => {
                             }
                             initialRating={rating}
                             readonly
-                        /> */}
+                        />
                     </p>
                 </div>
                 <div className="p-6 pt-0">
